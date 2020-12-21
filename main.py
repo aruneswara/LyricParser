@@ -3,15 +3,14 @@
 
 # Press ⌃R to execute it or replace it with your code.
 # Press Double ⇧ to search everywhere for classes, files, tool windows, actions, and settings.
-
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print("Hi, {0}".format(name))  # Press ⌘F8 to toggle the breakpoint.
+GENIUS_API_TOKEN='k9lIVkBW2OaRoRUZNdeE3L4q0LHOaI7Qaao0LyBoYQXp4JALUIIH302h0KSVZsht'
 
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    print_hi('PyCharm')
+    import bs4 as bs
+    import urllib.request
+    import os
+    import re
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
